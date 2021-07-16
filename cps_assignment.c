@@ -35,6 +35,10 @@ void main(){
     
     printf("Enter the previous Reading: ");
     scanf("%d",&prev_rdng);
+    
+    
+    printf("Enter the Month and Year (MM-YY): ");
+    scanf("%d-%d",&mm,&yy); 
 
     for (int i = 0 ; i<3; i++ ){
     
@@ -53,8 +57,7 @@ void main(){
 
         credit +=adv;
 
-        printf("Enter the Month and Year (MM-YY): ");
-        scanf("%d-%d",&mm,&yy);             
+                    
 
         printf("Enter the arrears: ");
         scanf("%f",&arrears);
@@ -208,6 +211,7 @@ void main(){
         
         
         prev_rdng = pres_rdng;
+        mm++;
         
         // getch();
  }

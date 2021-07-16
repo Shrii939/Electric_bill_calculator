@@ -1,18 +1,21 @@
+maddy@maddy:~$ cd Desktop/c_programming/Electric_bill_calculator/
+maddy@maddy:~/Desktop/c_programming/Electric_bill_calculator$ gcc-9 -o cps cps_assignment.c 
+maddy@maddy:~/Desktop/c_programming/Electric_bill_calculator$ ./cps 
 Enter your name: Shridhar
-Enter the RR/Account Number: 082
-Your TARRIFF code: 
+Enter the RR/Account Number: 12345
+Your TARIFF code: 
  1) LT 1 
  2) LT 2 (A) 
  3) LT 2 (B)
  3) LT 3 
  4) LT 4 and above 
-Enter TARRIFF the number: 2
+Enter TARIFF the number: 2
 What is the fixed charges in Rs: 195
+Enter the Month and Year (MM-YY): 06-21
 Enter the previous Reading: 2706
 Enter the present reading: 2794
 Enter the advance amount: 185.33
-Enter the Month and Year (MM-YY): 06-21
-Enter the arrears: 1.80
+Enter the arrears: 1.8
 Enter the subsidy amount: 0
 
 
@@ -20,7 +23,7 @@ Enter the subsidy amount: 0
 --------------Bill------------------------
 
 Name of the customer    :   Shridhar 
-Account number          :   82 
+Account number          :   12345 
 Date                    :   06/21 
 Previous reading        :   2706 
 Current reading         :   2794 
@@ -39,59 +42,58 @@ Total Bill Amount       :   462.95 Rs
 
 
 
-Enter the present reading: 2865
+Enter the present reading: 2860
 Enter the advance amount: 0
-Enter the Month and Year (MM-YY): 07-21
-Enter the arrears: 0
-Enter the subsidy amount: 0
+Enter the arrears: 20
+Enter the subsidy amount: 10
 
 
 
 --------------Bill------------------------
 
 Name of the customer    :   Shridhar 
-Account number          :   82 
+Account number          :   12345 
 Date                    :   07/21 
 Previous reading        :   2794 
-Current reading         :   2865 
-Unit consumed           :   71 
+Current reading         :   2860 
+Unit consumed           :   66 
 Advance                 :   0.00 Rs 
 Fixed charges           :   195.00 Rs 
-Energy charges          :   326.65 Rs 
-Tax                     :   29.40 Rs 
-Bill amount             :   551.05 RS 
-Arrears                 :   0.00 Rs 
-Subsidy                 :   0.00 Rs  
+Energy charges          :   300.90 Rs 
+Tax                     :   27.08 Rs 
+Bill amount             :   522.98 RS 
+Arrears                 :   20.00 Rs 
+Subsidy                 :   10.00 Rs  
 Credit left             :   0.00 Rs 
-Total Bill Amount       :   551.05 Rs 
+Total Bill Amount       :   532.98 Rs 
 --------------------END-------------------------------
 
 
 
 
-Enter the present reading: 2999
+Enter the present reading: 2950
 Enter the advance amount: 123
-Enter the Month and Year (MM-YY): 08-21
-Enter the arrears: 23
-Enter the subsidy amount: 2
+Enter the arrears: 12
+Enter the subsidy amount: 13
 
 
 
 --------------Bill------------------------
 
 Name of the customer    :   Shridhar 
-Account number          :   82 
+Account number          :   12345 
 Date                    :   08/21 
-Previous reading        :   2865 
-Current reading         :   2999 
-Unit consumed           :   134 
+Previous reading        :   2860 
+Current reading         :   2950 
+Unit consumed           :   90 
 Advance                 :   123.00 Rs 
 Fixed charges           :   195.00 Rs 
-Energy charges          :   657.30 Rs 
-Tax                     :   59.16 Rs 
-Bill amount             :   911.46 RS 
-Arrears                 :   23.00 Rs 
-Subsidy                 :   2.00 Rs  
+Energy charges          :   424.50 Rs 
+Tax                     :   38.21 Rs 
+Bill amount             :   657.71 RS 
+Arrears                 :   12.00 Rs 
+Subsidy                 :   13.00 Rs  
 Credit left             :   0.00 Rs 
-Total Bill Amount       :   809.46 Rs 
+Total Bill Amount       :   533.71 Rs 
 --------------------END-------------------------------
+

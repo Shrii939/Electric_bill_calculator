@@ -1,7 +1,7 @@
  // Write a program to display the electricity bill of your house.
  //Author shridhar ,code version v0.1 ,15/07/21 --12.51
- //available in  https://github.com/Shrii939/Electric_bill_calculator_  
-
+ //available in https://github.com/Shrii939/Electric_bill_calculator
+ 
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>

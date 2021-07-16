@@ -31,14 +31,13 @@ void main(){
    
 
     printf("What is the fixed charges in Rs: ");
-    scanf("%f",&fix);           
-    
-    printf("Enter the previous Reading: ");
-    scanf("%d",&prev_rdng);
-    
+    scanf("%f",&fix);
     
     printf("Enter the Month and Year (MM-YY): ");
-    scanf("%d-%d",&mm,&yy); 
+    scanf("%d-%d",&mm,&yy);           
+    
+    printf("Enter the previous Reading: ");
+    scanf("%d",&prev_rdng);   
 
     for (int i = 0 ; i<3; i++ ){
     

@@ -149,6 +149,8 @@ void main(){
     printf("Total Bill Amount       :   %.2f Rs \n",ttl_amnt); 
     printf("--------------------END-------------------------------\n");
 
+
+    prev_rdng = pres_rdng;
     
     // getch();
 }

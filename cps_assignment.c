@@ -90,29 +90,67 @@ void main(){
 
     // printf("The cost for 1-unit of electricity: ");
     // scanf("%f",&unit_cost);
+    units_consumed = pres_rdng - prev_rdng;    
+
+    int swh;
+    printf("Your TARRIF code: \n 1) LT 1 \n 2) LT 2 (A) \n 3) LT 2 (B)\n 3) LT 3 \n 4) LT 4 and above \n");
+    printf("Enter the number: ");
+    scanf("%d",&swh);
+
+
+    switch (swh){
+    case 1 /* constant-expression */:
+        if (units_consumed>= 0 && units_consumed <=40){
+            enrg_chrg = units_consumed * 7.13;
+        }
+        
+        break;
+
+    case 2: 
+        if (units_consumed >= 0 && units_consumed <= 30){
+            enrg_chrg = units_consumed * 3.85;
+            // a[100] = *"Energy charge = %.2f x 3.85";
+        
+        }else if (units_consumed >= 31 && units_consumed <= 130 ){ 
+            enrg_chrg = 30 * 3.85 + (units_consumed - 30) * 5.15;
+            // b[100]= *"Energy charge = 30 x 3.85 + %.2f x 5.15";
+        
+        }else if (units_consumed >= 131 && units_consumed <= 230){
+            enrg_chrg = 30 * 3.85 + 100  * 5.15 + (units_consumed - 130) * 6.70;
+            // c[100] = *"Energy charge = 30 x 3.85 + 100 x 5.15 + %.2f x 6.70";
+        
+        }else {
+            enrg_chrg = 30 * 3.85 + 100 * 5.15 + 200 * 6.70 + (units_consumed - 330)* 7.55;
+            // d[100] = *"Energy charge = 30 x 3.85 + 100 x 5.15 + 200 x 6.70 + %.2f x 7.55";
+        
+        }
+        break;
+    case 3: 
+        if (units_consumed >=0 && units_consumed <=200){
+            enrg_chrg = units_consumed * 6.35;
+        }else{
+            enrg_chrg = 200 * 6.35 + (units_consumed - 200) * 7.60;
+        }
+        break;
+    case 4: 
+        if (units_consumed >=0 && units_consumed <= 50 ){
+            enrg_chrg = units_consumed * 7.50;
+        }else{
+            enrg_chrg = 50 * 7.50 + (units_consumed - 50) * 8.50;
+        }
+        break;
+        
+        
+    default:
+        printf("Please verify your inputs");
+        exit(0);
+    }
 
     // calculation
 
-    units_consumed = pres_rdng - prev_rdng;    
+   
 
     //   char a[100];char b[100];char d[100];char c[100];
-    if (units_consumed >= 0 && units_consumed <= 30){
-        enrg_chrg = units_consumed * 3.85;
-        // a[100] = *"Energy charge = %.2f x 3.85";
-        
-    }else if (units_consumed >= 31 && units_consumed <= 130 ){ 
-        enrg_chrg = 30 * 3.85 + (units_consumed - 30) * 5.15;
-        // b[100]= *"Energy charge = 30 x 3.85 + %.2f x 5.15";
-        
-    }else if (units_consumed >= 131 && units_consumed <= 230){
-        enrg_chrg = 30 * 3.85 + 100  * 5.15 + (units_consumed - 130) * 6.70;
-        // c[100] = *"Energy charge = 30 x 3.85 + 100 x 5.15 + %.2f x 6.70";
-        
-    }else {
-        enrg_chrg = 30 * 3.85 + 100 * 5.15 + 200 * 6.70 + (units_consumed - 330)* 7.55;
-        // d[100] = *"Energy charge = 30 x 3.85 + 100 x 5.15 + 200 x 6.70 + %.2f x 7.55";
-        
-    }
     
 
     // tax

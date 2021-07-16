@@ -8,26 +8,33 @@ Enter the present reading: 2794
 Enter the arrears: 1.8
 Enter the subsidy amount: 0
 Enter the advance amount: 185.33
+Your TARRIF code: 
+ 1) LT 1 
+ 2) LT 2 (A) 
+ 3) LT 2 (B)
+ 3) LT 3 
+ 4) LT 4 and above 
+Enter the number: 2
 
 
 
 //bill
 --------------Bill------------------------
 
-Name of the customer    :      shridhar
-Account number             :      12356 
-Date                   	   :	21/21 
-previous reading           :	2706 
+Name of the customer        :      shridhar
+Account number              :      12356 
+Date                   	    :	21/21 
+previous reading            :	2706 
 Current reading             :	2794 
-Unit consumed              :	88 
-Fixed charges                :	195.00 Rs 
-Energy charges             :	414.20 Rs 
-Tax                     	   :	37.28 Rs 
-Bill amount            	   :	646.48 RS 
-Arrears                           :	1.80 Rs 
-subsidy                          : 	0.00 Rs  
-credit                              :     - 185.33 Rs 
-Total Bill Amount     	   :	 462.95 Rs 
+Unit consumed               :	88 
+Fixed charges               :	195.00 Rs 
+Energy charges              :	414.20 Rs 
+Tax                     	:	37.28 Rs 
+Bill amount            	    :	646.48 RS 
+Arrears                     :	1.80 Rs 
+subsidy                     : 	0.00 Rs  
+credit                      :     - 185.33 Rs 
+Total Bill Amount     	    :	 462.95 Rs 
 --------------------END-------------------------------
 
 
@@ -48,24 +55,31 @@ Enter the present reading: 2830
 Enter the arrears: 0
 Enter the subsidy amount: 0
 Enter the advance amount: 0
+Your TARRIF code: 
+ 1) LT 1 
+ 2) LT 2 (A) 
+ 3) LT 2 (B)
+ 3) LT 3 
+ 4) LT 4 and above 
+Enter the number: 2
 
 
 
 --------------Bill------------------------
 
-Name of the customer    :   shridhar 
-Account number              :   123456 
-Date                    	     :   07/21 
+Name of the customer         :   shridhar 
+Account number               :   123456 
+Date                         :   07/21 
 previous reading             :   2794 
 Current reading              :   2830 
-Unit consumed               :   36 
-Fixed charges                 :   195.00 Rs 
+Unit consumed                :   36 
+Fixed charges                :   195.00 Rs 
 Energy charges               :   146.40 Rs 
-Tax                                  :   13.18 Rs 
-Bill amount                       :   354.58 RS 
-Arrears                           :   0.00 Rs 
-subsidy                           :   0.00 Rs  
-credit                              : - 0.00 Rs 
+Tax                          :   13.18 Rs 
+Bill amount                  :   354.58 RS 
+Arrears                      :   0.00 Rs 
+subsidy                      :   0.00 Rs  
+credit                       : - 0.00 Rs 
 Total Bill Amount            :   354.58 Rs 
 --------------------END--- ----------------------------
 
@@ -81,20 +95,29 @@ Enter the present reading: 2930
 Enter the arrears: 0
 Enter the subsidy amount: 0
 Enter the advance amount: 200
+Your TARRIF code: 
+ 1) LT 1 
+ 2) LT 2 (A) 
+ 3) LT 2 (B)
+ 3) LT 3 
+ 4) LT 4 and above 
+Enter the number: 2
+
+
 -------------Bill------------------------
-Name of the customer    :   Shridhar 
+Name of the customer       :   Shridhar 
 Account number             :   12456 
-Date                               :   08/21 
+Date                       :   08/21 
 previous reading           :   2830 
 Current reading            :   2930 
-Unit consumed             :   100 
+Unit consumed              :   100 
 Fixed charges              :   195.00 Rs 
-Energy charges          :   476.00 Rs 
-Tax                              :   42.84 Rs 
-Bill amount                 :   713.84 RS 
-Arrears                       :   0.00 Rs 
-subsidy                       :   0.00 Rs  
-credit                         : - 200.00 Rs 
-Total Bill Amount       :   513.84 Rs 
+Energy charges             :   476.00 Rs 
+Tax                        :   42.84 Rs 
+Bill amount                :   713.84 RS 
+Arrears                    :   0.00 Rs 
+subsidy                    :   0.00 Rs  
+credit                     : - 200.00 Rs 
+Total Bill Amount          :   513.84 Rs 
 --------------------END-------------------------------
 

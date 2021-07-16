@@ -25,8 +25,8 @@ void main(){
     scanf("%d",&ac_no);
     
     int swh;
-    printf("Your TARRIFF code: \n 1) LT 1 \n 2) LT 2 (A) \n 3) LT 2 (B)\n 3) LT 3 \n 4) LT 4 and above \n");
-    printf("Enter TARRIFF the number: ");
+    printf("Your TARIFF code: \n 1) LT 1 \n 2) LT 2 (A) \n 3) LT 2 (B)\n 3) LT 3 \n 4) LT 4 and above \n");
+    printf("Enter TARIFF the number: ");
     scanf("%d",&swh); 
    
 
